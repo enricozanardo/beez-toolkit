@@ -64,3 +64,7 @@ npm run test
 # npm run test:watch
 # npm run test:coverage
 ```
+
+## License
+
+[AGPL-3.0](LICENSE)

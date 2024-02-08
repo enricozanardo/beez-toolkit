@@ -1,7 +1,7 @@
 {
   "name": "@stellab/beez-toolkit",
-  "version": "0.1.0",
-  "license": "GPL-3.0",
+  "version": "0.2.0",
+  "license": "AGPL-3.0",
   "description": "Toolkit for the Beez frontend application",
   "repository": {
     "type": "git",
@@ -11,7 +11,8 @@
     "lemii <info@lemii.dev>"
   ],
   "engines": {
-    "node": ">=18.16 <=18"
+    "node": ">=20.11.0 <=20",
+    "npm": ">=10.2.4 <=10"
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -38,6 +39,6 @@
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "tsup": "^6.5.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.3"
   }
 }
